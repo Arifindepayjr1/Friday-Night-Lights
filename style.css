@@ -32,3 +32,12 @@ li > a
     padding: 10px;
     margin: 10px;
 }
+li > a:hover 
+{
+    text-shadow: 3px 3px 10px red;
+}
+
+li > a:visited
+{
+    text-shadow: 1px 1px 5px blue;
+}
