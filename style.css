@@ -1,0 +1,43 @@
+@font-face 
+{
+    font-family: "Press 2Start";
+    src: url("../Side-Quest/asset/font/PressStart2P-Regular.ttf") format("truetype");
+}
+body 
+{
+    background-color: antiquewhite;
+    font-family: "Press 2Start";
+}
+h1 
+{
+    font-size: 64px;
+    width: 1700px;
+    text-shadow: 1px 1px 1px red;
+}
+ol 
+{
+    list-style-type: upper-alpha;
+}
+li 
+{
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+li > a 
+{
+    text-decoration: none;
+    font-size: 200%;
+    text-shadow: 1px 1px 5px red;
+    padding: 10px;
+    margin: 10px;
+}
+li > a:hover 
+{
+    text-shadow: 3px 3px 10px red;
+}
+
+li > a:visited
+{
+    text-shadow: 1px 1px 5px blue;
+}
