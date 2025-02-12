@@ -26,6 +26,8 @@ div.logo img  , #manchester-icon , #leicester-icon
     width: 7%;
     height: 7%;
     padding: 1%;
+    -webkit-user-select: none;
+    user-select: none;
 }
 div.logo img  
 {
