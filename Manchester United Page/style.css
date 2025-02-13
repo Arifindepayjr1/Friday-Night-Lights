@@ -4,6 +4,7 @@
 }
 body 
 {
+    margin: 0px;
     font-family: monospace;
 }   
 header 
@@ -293,3 +294,68 @@ li > a
     left: 230px;
     bottom: 210px;
 }
+.table 
+{
+    overflow: auto;
+    width: 900px;
+    height: 1000px;
+    position: relative;
+    bottom: 610px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.manUTable
+{
+    width: 90%;
+    height: 100%;
+}
+
+table 
+{
+    width: 102%;
+    border-collapse: collapse;
+}
+td 
+{
+    height: 40px;
+    text-align: left;
+    border-bottom: solid rgba(175, 163, 163, 0.25);
+}
+th 
+{
+    background-color: whitesmoke;
+    height: 30px;
+    padding: 0px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+.addition
+{
+    width: 20px;
+}
+.game 
+{    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    left: 58px;
+    background-color: green;
+    opacity: 1;
+    font-weight: bold;
+    color: white;
+}
+.extrath
+{
+    margin: 10px;
+}
+#premierLeagueIcon
+{
+    width: 100px;
+    position: relative;
+    left: 320px;
+}
+
