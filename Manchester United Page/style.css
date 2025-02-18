@@ -1,17 +1,26 @@
+@font-face
+{
+    font-family: "BebasNeu";
+    src: url("../Manchester United Page/asset/font/BebasNeue-Regular.ttf") 
+    format("truetype");
+}
 *
 {
+    padding: 0px;
     box-sizing: border-box;
 }
 body 
 {
+    overflow: auto;
+    height: 1500px !important; 
     margin: 0px;
     font-family: monospace;
 }   
-header 
+header , footer
 {
     border-bottom: 5px solid black;
     width: 100%;
-    height: auto;
+    height: 200px;
     overflow: auto;
     background-image: linear-gradient(to top , rgb(103, 46, 46) , rgb(255, 0, 0));
     background-repeat: no-repeat;
@@ -298,7 +307,7 @@ li > a
 {
     overflow: auto;
     width: 900px;
-    height: 1000px;
+    height: 980px;
     position: relative;
     bottom: 610px;
     padding: 10px;
@@ -358,4 +367,128 @@ th
     position: relative;
     left: 320px;
 }
-
+main 
+{
+    height: 500px;
+}
+.unitedWeek
+{
+    overflow: none;
+    width: 600px;
+    height: 420px;
+    position: relative;
+    bottom: 1100px;
+    left: 882px;
+    margin-top: 15px;
+}
+.thisweek
+{
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+}
+.thisweek h2 
+{
+    font-family: BebasNeu;
+    letter-spacing: 9.5px; 
+    font-size: 40px;
+    width: 470px;
+    margin-top: 0;
+    padding: 3px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.thisweek .matchthisweek 
+{
+    float: left;
+    border: solid black;
+    width: 450px;
+    height: 100px;
+    margin: 0px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.middleheader
+{
+    text-align: center;
+}
+.matchthisweek img
+{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    position: relative;
+    bottom: 35px;
+}
+.kickoff
+{
+    width: 40%;
+    height: 150px;
+    position: relative;
+    bottom: 130px;
+    left: 200px;
+    padding: 5px;
+}
+.matchthisweek
+{
+    padding: 10px;
+}
+.matchthisweek #Today
+{
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+#Premierleague2
+{
+    position: relative;
+    bottom: 25px;
+}
+#kicktext
+{
+    font-weight: bold;
+    position: relative;
+    bottom: 6px;
+}
+#leighsport
+{
+    position: relative;
+    bottom: 20px;
+}
+.matchreview
+{
+    padding: 10px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    border: solid rgba(175, 163, 163, 0.85);
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+}
+.matchreview:hover
+{
+    background: black;
+    color: white;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    border: solid rgba(175, 163, 163, 0.85);
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+}
+.lineonly
+{
+    width: 10px;
+    height: 80px;
+    position: relative;
+    bottom: 270px;
+    left: 180px;
+    border-right: solid rgba(0, 0, 0, 0.75);
+}
