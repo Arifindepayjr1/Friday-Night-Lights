@@ -12,11 +12,11 @@
 body 
 {
     overflow: auto;
-    height: 1500px !important; 
+    height: 2300px !important; 
     margin: 0px;
     font-family: monospace;
 }   
-header , footer
+header , footer 
 {
     border-bottom: 5px solid black;
     width: 100%;
@@ -305,13 +305,13 @@ li > a
 }
 .table 
 {
-    overflow: auto;
+    overflow: none;
     width: 900px;
     height: 980px;
     position: relative;
     bottom: 610px;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 10px;
 }
 .manUTable
@@ -373,13 +373,14 @@ main
 }
 .unitedWeek
 {
-    overflow: none;
+    overflow-y: auto;
     width: 600px;
     height: 420px;
     position: relative;
     bottom: 1100px;
     left: 882px;
     margin-top: 15px;
+    overflow: hidden;
 }
 .thisweek
 {
@@ -491,4 +492,9 @@ main
     bottom: 270px;
     left: 180px;
     border-right: solid rgba(0, 0, 0, 0.75);
+}
+footer
+{
+    position: relative;
+    top: 1300px;
 }
